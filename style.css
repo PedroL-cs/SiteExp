@@ -6,6 +6,7 @@
     list-style: none;
     text-decoration: none;
     font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
 }
 
 .wrapper {
@@ -59,9 +60,7 @@
     padding: 0px 20px;
     display: flex;
     align-items: center;
-}
-.navigation li:last-child {
-    padding-right: 0;
+    &:nth-last-child(){padding-right: 0;}
 }
 
 .section_one {
@@ -72,6 +71,28 @@
 .section_one h1, h3 {
     font-family: "Noto Sans", sans-serif;
     font-weight: normal;
+}
+
+.section_two {
+    background-color: beige;
+    display: block;
+    align-items: center;
+}
+.about_us {
+    width: 71.5%;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.about_us h1 {
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.about_us p {
+    font-size: 20px;
 }
 
 .card_container {
