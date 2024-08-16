@@ -12,6 +12,9 @@
     height: 80px;
     display: block;
     background-color: #247BA0;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1000;
 }
 
 .logo {
