@@ -7,6 +7,12 @@
     text-decoration: none;
 }
 
+.wrapper {
+    width: 71.5%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
 .header {
     width: 100%;
     height: 80px;
@@ -17,36 +23,33 @@
     z-index: 1000;
 }
 .inner_header {
-    width: 75%;
+    width: 71.5%;
     height: 100%;
-    display: block;
+    display: flex;
+    align-items: center;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .logo {
-    margin-left: 25px;
+    display: flex;
     height: 100%;
-    display: table;
-    float: left;
+    align-items: center;
 }
+
 .logo h1 {
     color: #FFFCFF;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
     font-family: "Noto Sans", sans-serif;
     font-weight: 400;
+    margin: 0;
 }
 .logo span {
     font-weight: 800;
 }
 
 .navigation {
-    float: right;
-    height: 100%;
     display: flex;
     align-items: center;
-    margin-right: 10px;
 }
 .navigation li {
     color: #FFFCFF;
@@ -55,4 +58,7 @@
     padding: 0px 20px;
     display: flex;
     align-items: center;
+}
+.navigation li:last-child {
+    padding-right: 0;
 }
