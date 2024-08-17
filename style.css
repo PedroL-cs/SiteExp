@@ -6,12 +6,23 @@
     font-weight: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #FFFCFF;
+}
+a:hover {
+    cursor: pointer;
+}
+
 .wrapper {
     width: 71.5%;
     margin: 0 auto;
 }
 
-.hero-section {
+.home {
     position: relative;
     height: 720px; 
     background-image: url('https://img.oastatic.com/img2/58223670/max/praia-do-meireles-fortaleza.jpg');
@@ -34,18 +45,18 @@
     z-index: 1;
 }
 
-.hero-content {
+.home_content {
     position: relative;
     z-index: 2;
 }
 
-.hero-content h1 {
+.home_content h1 {
     font-size: 48px;
     font-family: "Noto Sans", sans-serif;
     font-weight: 700;
 }
 
-.hero-content p {
+.home_content p {
     font-size: 24px;
     font-family: "Noto Sans", sans-serif;
     font-weight: 400;
